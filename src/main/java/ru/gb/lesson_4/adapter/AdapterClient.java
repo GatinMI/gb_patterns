@@ -8,7 +8,12 @@ public class AdapterClient {
     public static void main(String[] args) {
         List<Roundable> roundables = new ArrayList<>();
 
-        //roundables.add(new Square(3));
+
+        roundables.add(new Circle(3));
+        Square square = new Square(4);
+        roundables.add(new SquareRoundableAdapter(square));
+
+
 
 
     }

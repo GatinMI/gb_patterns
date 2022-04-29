@@ -1,4 +1,6 @@
 package ru.gb.lesson_4.facade.video_converter;
 
-class CodecFactory {
+public enum VideoFormat {
+    MP4,
+    AVI
 }
